@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>A Title</title>
+  </head>
+  <body>
+    <nav>
+      <button onclick="goPrevious()">Previous</button>
+      <button onclick="goNext()">Next</button>
+    </nav>
+    <main id="photo">
+      <h1>Vacation</h1>
+      <img alt="beach" src="https://mimo.app/i/beach.png" width="200">
+      <ul id="keywords">
+       <li>Swim</li>
+       <li>Layout</li>
+      </ul>
+      
+    </main>
+    <script>
+      var ul = document.getElementById("keywords");
+      var main = document.getElementById("photo");
+      
+      function goPrevious() {
+       main.children[0].innerHTML = "Vacation"
+        main.children[1].src = "https://mimo.app/i/beach.png"}
+      
+      function goNext() {
+      main.children[0].innerHTML = "Rome"
+      main.children[1].src =""
+      }
+    </script>
+  </body>
+</html>

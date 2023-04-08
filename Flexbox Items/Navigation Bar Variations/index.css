@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+  }
+  
+  .one .mail {
+  flex-grow: 1;
+  }
+  
+  .one .phone {
+  flex-grow: 1;
+  }
+  
+  .one .home {
+    flex-grow: 2;
+  }
+  
+  .one .search{
+    flex-grow: 3;
+  }
+  
+  .two .home {
+    flex-grow: 4;
+  }
+  
+  .two .search{
+    flex: 0 0 100px;
+  }
+  
+  .two .phone{
+    flex-basis: 50px;
+  }
+  
+  .two .mail{
+    flex: 0 1 50px;
+  }

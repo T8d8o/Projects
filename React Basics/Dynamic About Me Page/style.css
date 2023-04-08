@@ -1,0 +1,41 @@
+body {
+    background-color: aliceblue;
+    max-width: 768px;
+    margin: 50px;
+   }
+   
+   h1,
+   h2,
+   h3 {
+    font-family: Arial, sans-serif;
+    color: #343;
+   }
+   
+   h1 {
+    font-size: 28px;
+   }
+   
+   h2 {
+    font-size: 23px;
+   }
+   
+   span {
+    color: purple;
+    display: inline-block;
+    transform: rotate(2deg);
+    text-shadow: 2px 3px white;
+    font-weight: 700;
+   }
+   
+   button {
+    background: #C569C5;
+    box-shadow: 2px 3px 0px 2px plum;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+   }

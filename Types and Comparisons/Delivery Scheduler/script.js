@@ -1,0 +1,25 @@
+const firstDay = "Monday";
+const secondDay = "Friday";
+const deliveryDay = "Friday";
+console.log("Available days: Monday and Friday " + firstDay + secondDay);
+console.log("Delivery Day: Friday" + deliveryDay);
+const firstDayCheck = deliveryDay === firstDay;
+console.log("Successful delivery on the first day? " + firstDayCheck);
+const secondDayCheck = deliveryDay === secondDay;
+console.log("Successful delivery on the second day? " + secondDayCheck);
+const dayResult = firstDayCheck || secondDayCheck === true;
+console.log("Fulfilled Sheila's day preference? " + dayResult);
+const requestAfterTime = 8;
+const requestBeforeTime = 10;
+console.log("Request delivery after " + requestAfterTime + " but before " +
+  requestBeforeTime);
+const deliveryTime = 9;
+console.log("Delivery Time: " + deliveryTime);
+const afterTimeCheck = deliveryTime >= requestAfterTime;
+console.log("Delivery is after " + requestAfterTime + "? " + afterTimeCheck);
+const beforeTimeCheck = deliveryTime < requestBeforeTime;
+console.log("Delivery is before " + requestBeforeTime + "? " + beforeTimeCheck);
+const timeResult = beforeTimeCheck === true && afterTimeCheck === true;
+console.log("Fulfilled Sheila's time preference? " + timeResult);
+const overallCheck = timeResult === true && dayResult === true;
+console.log("Program scheduled well? " + overallCheck);

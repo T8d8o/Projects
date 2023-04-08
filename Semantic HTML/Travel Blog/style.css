@@ -1,0 +1,15 @@
+body {
+    background-color: #F5F5F5;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #555050;
+    text-decoration: underline;
+  }
+  
+  img {
+    width: 150px;
+    border: solid #ECE4E9 4px;
+    border-radius: 15px;
+  }

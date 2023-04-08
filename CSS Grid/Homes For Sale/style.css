@@ -1,0 +1,136 @@
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  img {
+    height: auto;
+    width: 250px;
+  }
+  
+  button {
+    height: 23px;
+    width: 115px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: indigo;
+    color: white;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  a {
+    width: max-content;
+    color: indigo;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .nav {
+    display: grid;
+    gap: 0px 50px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .description {
+    margin-top: 5px;
+  }
+  
+  .home-card-1 {
+    grid-template-areas:
+      "image image"
+      "button-one button-two"
+      "description description"
+      "address address";
+    gap: 5px 10px;
+    display: grid;
+    grid-area: card-one;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: auto;
+  }
+  
+  .home-card-2 {
+    grid-area: card-two;
+    display: grid;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: auto;
+    gap: 5px 10px;
+    grid-template-areas: 
+    "image image"
+    "button-one button-two"
+    "description description"
+    "address address";
+  }
+  
+  .home-card-3 {
+    grid-area: card-three;
+    display: grid;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "image image"
+      "button-one button-two"
+      "description description"
+      "address address";
+    gap: 5px 10px;
+  }
+  
+  .home-card-4 {
+    grid-area: card-four;
+    display: grid;
+    grid-template-columns: 125px 125px;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "image image"
+      "button-one button-two"
+      "description description"
+      "address address";
+    gap: 5px 10px;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template: auto / repeat(2, auto);
+    grid-template-areas:
+      "card-one card-two"
+      "card-three card-four";
+    gap: 40px 40px;
+  }
+  
+  .image{
+    grid-area: image;
+  }
+  
+  .like-button{
+    grid-area: button-one;
+  }
+  
+  .tour{
+    grid-area: button-two;
+  }
+  
+  .description{
+    grid-area: description;
+  }
+  
+  .address{
+    grid-area: address;
+  }

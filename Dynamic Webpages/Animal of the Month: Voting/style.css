@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+   }
+   
+   img {
+    border-radius: 10px;
+   }
+   
+   button {
+    margin:5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    
+   }
+   
+   #votes {
+    font-weight: bold;
+    font-size: 25px;
+   }
+   
+   #upvote {
+    background-color: green;
+   }
+   
+   #downvote {
+    background-color: red;
+   }

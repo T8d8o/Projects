@@ -1,0 +1,27 @@
+#body {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    height: auto;
+   }
+   
+   h2 {
+     color: #34495E;
+   }
+   
+   #wrapper {
+    border: 1px solid black;
+    height: 400px;
+    margin: 1%;
+    padding: 2%;
+   }
+   
+   #times {
+    background-color: #34495E;
+   }
+   
+   #events {
+    background-color: #7D3C98;
+    padding: 10px;
+    
+   }

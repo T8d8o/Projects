@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <form onsubmit="event.preventDefault(); checkExistingUser(event);">
+      <label for="name-query">Name Query:</label>
+      <input type="text" name="name" placeholder="Enter a name">
+      <button type="submit">submit</button>
+    </form>
+    <form onsubmit="event.preventDefault(); checkLocation(event);">
+      <label for="location-query">Location Query:</label>
+      <input type="text" name="location" placeholder="Enter a location">
+      <button type="submit">submit</button>
+    </form>
+    <form onsubmit="event.preventDefault(); checkContributions(event);">
+      <label for="contributions-query">Contributions Query</label>
+      <input type="number" name="contributions" placeholder="Enter an amount">
+      <button type="submit">submit</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>

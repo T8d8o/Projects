@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 40px);
+    grid-template-rows: repeat(8, 40px);
+  }
+  
+  .grid-item,
+  .grid-item-white {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    margin: 2px
+  }
+  
+  .grid-item-white {
+    background-color: lightgray;
+  }
+  
+  h2 {
+    text-align: left;
+  }

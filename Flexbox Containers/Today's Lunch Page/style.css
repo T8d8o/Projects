@@ -1,0 +1,29 @@
+.container {
+    background-color: #F0F5FD;
+    display: flex;
+    height: 260px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .footer {
+    display: flex;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .item {
+    background-color: #D9E8FB;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  a{
+    margin: 10px;
+  }

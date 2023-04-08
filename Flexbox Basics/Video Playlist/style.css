@@ -1,0 +1,57 @@
+body{
+    font: Garamond;
+    background-color: black;
+    color: white;
+  }
+  
+  .accountNav{
+  display: flex;
+  flex-direction: row-reverse;
+  }
+  
+  button{
+    background-color: red;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  nav{
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .container{
+  display: flex;
+  
+  }
+  
+  .list{
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .playlistImg{
+    width: 10%;
+    margin: 10px;
+  }
+  
+  .playlist{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #selected{
+    background-color: gray;
+  }
+  
+  .comments{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name{
+    font-weight: bold;
+    color: gray;
+  }

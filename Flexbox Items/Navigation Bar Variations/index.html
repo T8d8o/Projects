@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <select id="selection" onchange="switchNavbar()">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+    </select>
+    <h1>Kyle's Bakery</h1>
+    <div id="option1">
+      <div class="navbar one">
+        <span class="mail">
+          <img src="https://mimo.app/i/mail-large.png" height="10" />
+        </span>
+        <span class="phone">
+          <img src="https://mimo.app/i/phone-large.png" height="10" />
+        </span>
+        <span class="home">Home</span>
+        <input class="search" type="text" placeholder=" Search "></input>
+      </div>
+    </div>
+    <div id="option2" class="hidden">
+      <div class="navbar two">
+        <span class="mail">
+          <img src="https://mimo.app/i/mail-large.png" height="10" />
+        </span>
+        <span class="phone">
+          <img src="https://mimo.app/i/phone-large.png" height="10" />
+        </span>
+        <span class="home">Home</span>
+        <input class="search" type="text" placeholder="search"></input>
+      </div>
+    </div>
+  </body>
+</html>

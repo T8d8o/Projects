@@ -1,0 +1,111 @@
+body {
+    background-color: #FFF9F5;
+    color: #36454F;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 600px;
+    margin: auto;
+  }
+  
+  img {
+    width: 200px;
+    border: 2px solid black;
+    position: relative;
+  
+  }
+  
+  .groupOne,
+  .groupTwo {
+    width: 80%;
+    text-align: justify;
+  }
+  
+  .groupTwo {
+    float: right;
+  }
+  
+  #imageTwo {
+    top: 30px;
+    right: 175px;
+  }
+  
+  #imageThree {
+    top: 30px;
+    float: right;
+  }
+  
+  #imageFour {
+    left: 250px;
+  }
+  
+  #pTwo {
+    clear: right;
+  float: right;
+  }
+  
+  .buttonTwo {
+    clear: right;
+  float: right;
+  }
+  
+  .footerLinks {
+  display: block;
+  }
+  
+  nav {
+    margin: 12px;
+  }
+  
+  a {
+    margin: 20px;
+    color: #36454F;
+    text-decoration: none;
+  }
+  
+  .firstLink {
+    margin-left: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 1px;
+  }
+  
+  img:hover {
+    cursor: pointer;
+  }
+  
+  .showing {
+    opacity: 100%;
+    z-index: 2;
+  }
+  
+  .obscured {
+    opacity: 50%;
+    z-index: 1;
+  }
+  
+  p {
+    margin-top: 35px;
+    width: 90%;
+  }
+  
+  button {
+    height: 30px;
+    width: 100px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  footer {
+    padding-top: 50px;
+    text-align: center;
+    clear: right;
+  }
